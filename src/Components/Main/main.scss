@@ -1,0 +1,261 @@
+.book-add-title {
+  max-width: 1240px;
+  margin: 0 auto 30px auto;
+  color: rgb(136, 136, 136);
+}
+.books-container {
+  transition: 0.3s background-color;
+  padding: 30px 20px;
+  background-color: #162d34;
+  min-height: 100vh;
+  .book-add {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    grid-gap: 35px;
+    .css-q8hpuo-MuiFormControl-root {
+      max-width: 200px;
+    }
+    .css-1u3bzj6-MuiFormControl-root-MuiTextField-root {
+      transition: 0.3s background-color;
+      background-color: #19313c;
+      .css-e4w4as-MuiFormLabel-root-MuiInputLabel-root {
+        color: #fff;
+      }
+      .css-cio0x1-MuiInputBase-root-MuiFilledInput-root:before {
+        border-bottom: 1px solid #fff;
+      }
+      .css-o943dk-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+        color: #1976d2;
+      }
+      .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+        color: #fff;
+      }
+      .MuiInputLabel-filled {
+        color: #fff;
+      }
+    }
+    .css-q8hpuo-MuiFormControl-root {
+      transition: 0.3s background-color;
+      background-color: #19313c;
+      .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+        color: #fff;
+      }
+      .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+        color: #fff;
+      }
+      .css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+        color: #1976d2;
+      }
+      .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+        color: #fff;
+      }
+      .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+        color: #1976d2;
+      }
+      .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+        color: #fff;
+      }
+    }
+  }
+  .books {
+    max-width: 1240px;
+    margin: 30px auto;
+    .line {
+      width: 100%;
+      height: 2px;
+      background-color: #1976d2;
+      margin-bottom: 25px;
+    }
+    .title {
+      color: rgb(136, 136, 136);
+      margin-bottom: 25px;
+    }
+    .book {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      transition: 0.3s background-color;
+      background-color: #19313c;
+      color: #fff;
+      padding: 25px;
+      border-radius: 5px;
+      margin-bottom: 25px;
+      h4 {
+        color: rgb(136, 136, 136);
+        margin-bottom: 3px;
+      }
+      h2 {
+        color: #fff;
+        margin-bottom: 10px;
+        font-size: 30px;
+        transition: 0.3s color;
+      }
+      h3 {
+        color: #1976d2;
+        margin-bottom: 20px;
+        font-size: 14px;
+      }
+      .buttons {
+        display: flex;
+        grid-gap: 10px;
+      }
+    }
+    .right-side {
+      display: flex;
+      flex-direction: column;
+      grid-gap: 15px;
+      align-items: center;
+      .progress {
+        display: flex;
+        align-items: center;
+        grid-gap: 20px;
+        h3 {
+          font-size: 30px;
+        }
+      }
+    }
+  }
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  grid-gap: 20px;
+}
+.categories-container {
+  width: 100%;
+  background-color: #162d34;
+  min-height: 100vh;
+  transition: 0.3s background-color;
+}
+.categories {
+  color: #fff;
+  max-width: 1240px;
+  margin: 0 auto;
+  padding-top: 25px;
+  .book {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #19313c;
+    transition: 0.3s background-color;
+
+    color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+    h4 {
+      color: rgb(136, 136, 136);
+      margin-bottom: 3px;
+    }
+    h2 {
+      color: #fff;
+      margin-bottom: 10px;
+      font-size: 30px;
+      transition: 0.3s color;
+    }
+    h3 {
+      color: #1976d2;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .buttons {
+      display: flex;
+      grid-gap: 10px;
+    }
+  }
+  .category-filter {
+    max-width: 200px;
+    border-radius: 4px;
+    margin-bottom: 25px;
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+      background-color: #19313c;
+      transition: 0.3s background-color;
+    }
+    .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+      color: #fff;
+    }
+    .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+      color: #1976d2;
+    }
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+      color: #fff;
+    }
+    .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+      color: #fff;
+    }
+    .css-bpeome-MuiSvgIcon-root-MuiSelect-icon {
+      fill: #1976d2;
+    }
+  }
+}
+
+.App.light {
+  .books-container {
+    background: rgb(232, 232, 232);
+    .book {
+      background-color: #fff;
+      color: #000;
+      h2 {
+        color: #000;
+        margin-bottom: 10px;
+        font-size: 30px;
+      }
+    }
+    .book-add {
+      .css-10botns-MuiInputBase-input-MuiFilledInput-input {
+        background-color: #fff;
+        color: #000;
+      }
+      .css-1u3bzj6-MuiFormControl-root-MuiTextField-root .MuiInputLabel-filled {
+        color: #000;
+      }
+      .css-q8hpuo-MuiFormControl-root {
+        background-color: #fff;
+        color: #000;
+      }
+      .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+        color: #000;
+      }
+      .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+        color: #000;
+      }
+      .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+        color: #000;
+      }
+    }
+  }
+  .header {
+    background-color: #fff;
+  }
+  .categories-container {
+    background-color: rgb(232, 232, 232);
+    .book {
+      background-color: #fff;
+      color: #000;
+      h2 {
+        color: #000;
+        margin-bottom: 10px;
+        font-size: 30px;
+      }
+    }
+    .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root {
+      color: #000;
+    }
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input {
+      color: #000;
+    }
+    .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root {
+      color: #000;
+    }
+    .css-11u53oe-MuiSelect-select-MuiInputBase-input-MuiOutlinedInput-input.MuiSelect-select {
+      background-color: #fff;
+      color: #000;
+    }
+    .css-hfutr2-MuiSvgIcon-root-MuiSelect-icon {
+      color: #000;
+    }
+  }
+}
